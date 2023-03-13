@@ -2,7 +2,7 @@ const yesBtn = document.querySelector('#yes-btn');
 const noBtn = document.querySelector('#no-btn');
 
 yesBtn.addEventListener('click', () => {
-  alert('Que ótimo! Vamos marcar um encontro?');
+  alert('Beleza, te amo amor');
 });
 
 noBtn.addEventListener('click', () => {
