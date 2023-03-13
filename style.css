@@ -1,0 +1,80 @@
+/* Estilos básicos do corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos para o contêiner do pedido */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  .buttons {
+    margin-top: 30px;
+  }
+  
+  button {
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  #yes-btn {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  #no-btn {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  /* Adicione estas linhas no CSS existente */
+/* Adicione estas linhas no CSS existente */
+#no-btn {
+    animation: shake 2s ease-in-out infinite;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, -1px, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 2px, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, -4px, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 4px, 0);
+    }
+  }
+  
+  
